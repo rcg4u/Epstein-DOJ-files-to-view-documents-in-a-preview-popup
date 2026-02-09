@@ -1,13 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Epstein Files DOJ view helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Auto-clicks DOJ age verification and detects CAPTCHA presence.",
   "host_permissions": ["https://www.justice.gov/*", "https://jmail.world/*"],
   "permissions": ["storage", "tabs", "downloads"],
-  "background": {
-    "service_worker": "background.js"
-  },
   "action": {
     "default_title": "Epstein Files DOJ view helper",
     "default_popup": "popup.html"
@@ -20,3 +17,4 @@
     }
   ]
 }
+
